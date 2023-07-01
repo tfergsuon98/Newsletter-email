@@ -1,0 +1,20 @@
+<mj-raw>
+    <!-- Footer -->
+  </mj-raw>
+  <mj-wrapper css-class="footer" padding="0px">
+        
+        <mj-section padding="20px 0 0">
+          <mj-column padding="0">
+            <mj-text font-size="10px" align="center">
+            &copy; Gwanggyo Jesus Hope Church, 70-3, Daehak 1-ro 8beon-gil, Yeongtong-gu, Suwon-si, Gyeonggi-do, Republic of Korea, 16226
+            </mj-text>
+          </mj-column>
+        </mj-section>
+        <mj-section padding="0px 0 60px">
+          <mj-column padding="0">
+            <mj-text font-size="10px" align="center">
+              <a href="#" class="footer-links">Unsubscribe</a> | <a href="#" class="footer-links">Manage Your Email Preferences</a>
+            </mj-text>
+          </mj-column>
+        </mj-section>
+      </mj-wrapper>

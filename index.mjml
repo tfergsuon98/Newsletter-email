@@ -1,0 +1,144 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-image padding="0"/>
+    </mj-attributes>
+    <mj-style>
+      * {
+        box-sizing: border-box;
+      }
+
+      .link-color {
+        color: #050144;
+        text-decoration: none;
+      }
+
+      .link-color:hover {
+        font-weight: bold;
+        color: #050144;
+        text-decoration: underline;
+      }
+
+      .small-link-color {
+        color: #050144;
+        text-decoration: none;
+      }
+
+      .small-link-color:hover {
+        font-weight: bold;
+        color: #050144;
+        text-decoration: underline;
+      }
+
+      .footer-links{
+        color: #000;
+        text-decoration: none;
+      }
+      .footer-links:hover{
+        color: #050144;
+        text-decoration: none;
+      }
+
+      @media only screen and (max-width:480px) {
+        .footer-links{
+        color: #050144;
+        text-decoration: none;
+      }
+      .footer-links:hover{
+        color: #050144;
+        text-decoration: none;
+      }
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .icons-size {
+        max-width: 280px;
+        padding: 40px 0 30px;
+      }
+
+      .header {
+        background-color: #ffae00;
+      }
+
+      .section-padding {
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+
+      .footer {
+        background-image: url('https://i.postimg.cc/DzddNDLs/bg-colors.png');
+        background-size: 600px;
+      }
+
+      .content-background {
+        background-color: #ffffff;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#f2f2f2">
+    <mj-section css-class="content-background" padding="0">
+      <mj-include path="./components/header.mjml" />
+      <mj-raw>
+        <!-- Top Section -->
+      </mj-raw>
+      <mj-section>
+        <mj-column padding="20px 0 30px 0">
+          <mj-text css-class="header-title" font-size="58px" color="#004c3f" font-weight="bold">
+            Weekly Schedule
+          </mj-text>
+          <mj-text css-class="header-title" font-size="18px" color="#004c3f" font-weight="normal">
+            July 18, 2028
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-include path="./components/3-line.mjml" />
+      <mj-raw>
+        <!-- 2 Column image with text -->
+      </mj-raw>
+      <mj-section>
+        <mj-column>
+          <mj-image href="#" padding-bottom="20px" src="https://i.postimg.cc/3R8CQBFq/cross.jpg" />
+        </mj-column>
+        <mj-column>
+          <mj-text color="#004c3f" font-size="24px" font-weight="bold" padding-bottom="20px">
+            <a href="#" class="link-color"> Sunday Service Reminder</a>
+          </mj-text>
+
+          <mj-text color="#004c3f" font-size="16px" font-weight="normal" line-height="20px" padding-bottom="20px">
+          
+Join us this Sunday at 11:00 AM for worship at Gwanggyo Jesus Hope Church. We invite you to experience a meaningful service filled with praise, prayer, and spiritual nourishment. After the service, enjoy a fellowship feast where we'll share delicious food together. Please bring a dish to share and label any allergens. We look forward to seeing you there!
+          </mj-text>
+
+          <mj-text color="#008060" font-size="14px" font-weight="bold" line-height="20px" padding-bottom="20px">
+            <a href="#" class="small-link-color">Learn More </a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!-- Lines -->
+      </mj-raw>
+      <mj-include path="./components/3-line.mjml" />
+      <mj-raw>
+        <!-- Bottom Center Text-->
+      </mj-raw>
+      <mj-section padding="40px 40px 20px 40px">
+        <mj-column>
+          <mj-text align="center" font-size="20px" font-weight="bold" line-height="20px" color="#212b35">
+            Don't forget to
+            Subscribe to our Email for weekly Updates.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!-- 2 App Icons -->
+      </mj-raw>
+      
+      <mj-raw>
+        <!-- Footer -->
+      </mj-raw>
+
+      <mj-include path="./components/footer.mjml" />
+    </mj-section>
+  </mj-body>
+
+</mjml>
